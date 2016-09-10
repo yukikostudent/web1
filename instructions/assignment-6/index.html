@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A6: Hero, embeddables and transitions</title>
+</head>
+<body>
+<xmp theme="united" style="display:none;">
+[&lt; All Assignments](../../index.html)
+# A6: Hero, embeddables and transitions
+
+## Assignment Description
+Finish the demo site by styling the hero sections, adding the coffee and search content, and styling the assignment page.
+
+## Instructions
+1. Find what each page should look like in the [mockups](mockups/) folder
+1. Find the specs in the [specs](specs/) folder
+1. Update the Hero images on all pages
+  - add an id to the body of each page. `<body id="home">`
+  - find the hero images in the [images](images/) folder
+  - Add the background images in css. Be sure to add the comment giving credit for each image
+  ```
+    #home .hero {
+      background-image: url('images/ocean.jpg');
+      /*photo by NASA https://hd.unsplash.com/photo-1451186859696-371d9477be93 */
+    }
+    #about .hero {
+      background-image: url('images/blueberries.jpg');
+      /* photo from @veeterzy https://unsplash.com/search/blueberries?photo=Hc42xXu_WOg*/
+    }
+    #coffee .hero {
+      background-image: url('images/coffee.jpg');
+      /* photo from Jakub Kapusnak https://foodiesfeed.com/flatwhite-coffee-closeup-berlin */
+    }
+    #search .hero {
+      background-image: url('images/sky.jpg');
+      /* Photo from drew collins https://unsplash.com/?photo=U713MZX1x0w */
+    }
+    #assignments .hero {
+      background-image: url('images/coast.jpg');
+      /* photo from Stefan Kunze https://unsplash.com/?photo=_SmZSuZwkHg*/
+    }
+  ```
+1. Update the Coffee page
+  - Update the style of the quote in css
+  - Redo the menu as a table in html
+1. Update the Search page
+  - Add the form, video and map html
+  - Style the form in css
+1. Update the assignment page
+  - style the asignment definitions
+1. Turn in
+
+## Requirement Checklist:
+- Can you access the assignment mockups online? `https://{username}.github.io/web1/assignment-6`
+- Are the hero images added as backgrounds on all pages?
+- Check the coffee page:
+  - Does the quote have a yellow border on the left?
+  - Are the prices right-aligned in the menu table?
+  - Are the drink definitions light gray and italic?
+- Check the search page:
+  - Does the search form have a white background and drop shadow?
+  - is the search button blue with rounded corners?
+- Check the assignments page:
+  - Are the links blue and underlined
+  - Are the definitions left aligned with the links
+
+</xmp>
+</body>
+<script src="../../helper-scripts/strapdown/strapdown.js"></script>
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="../../helper-scripts/magnific-popup/magnific-popup.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="../../helper-scripts/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="../../helper-scripts/magnific-popup/magnific-popup.js"></script>
+<script src="../../helper-scripts/instruction-lightbox.js"></script>
+
+</html>
