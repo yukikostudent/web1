@@ -1,5 +1,5 @@
 # Browse your assignments
-[Assignments](/web1/)
+https:{username}.github.io/web1
 
 ## Getting Set up and Turning in
 Please consult the setup guide here: [https://yukikodesign.github.io/web1/instructions.html](https://yukikodesign.github.io/web1/instructions.html)
