@@ -1,90 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>
-      My first page!!
-    </title>
+    <title>Web 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
-    <div>
-      <nav>
-        <a href="index.html">
-          Home
-        </a>
-        <a href="about.html">
-          About
-        </a>
-        <a href="search.html">
-          Search
-        </a>
-        <a href="coffee.html">
-          Coffee
-        </a>
-        <a href="assignments.html">
-          Assignments
-        </a>
-      </nav>
-      <div>
-        <h1>
-          Yukiko's Web 1 pages
-        </h1>
-        <p>
-          Web development and design practice. See my progression of skills as I learn HTML/CSS.
-        </p>
-        <a href="about.html">
-          About me
-        </a>
+
+  <div class="wrapper">
+    <div class="hero">
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Yukiko's Web I</a>
+          <a href="about.html" class="nav-link">About Me</a>
+          <a href="search.html" class="nav-link">Search</a>
+          <a href="coffee.html" class="nav-link">Coffee</a>
+          <a href="assignments.html" class="nav-link">Assignments</a>
+        </nav>
+        <div class="hero-card">
+          <h1 class="hero-card-title">Yukiko's Web 1 Demo Pages</h1>
+          <p class="hero-card-description">Web development and design practice. See my progression of skills as I learn HTML and CSS.</p>
+          <a href="about.html" class="hero-card-link">About Me</a>
+        </div>
       </div>
-    </div>
-    
-    
-    <div>
-      <div>
-        <a href="search.html">
-          <img src="images/sky.jpg">
-        </a>
-        <h4>
+      <!-- end hero -->
+
+      <div class="main-content">
+
+        <div class="card">
           <a href="search.html">
-            Search
+            <img class="card-image" src="images/sky-thumb.jpg">
           </a>
-        </h4>
-        <p>Forms, Videos and maps</p>
-      </div>
-      
-      <div>
-        <a href="coffee.html">
-          <img src="images/coffee.jpg">
-        </a>
-        <h4>
+          <h4>
+            <a href="search.html" class="card-title">
+              Search
+            </a>
+          </h4>
+          <p>
+            Forms, videos and maps
+          </p>
+        </div>
+
+        <div class="card">
           <a href="coffee.html">
-            Coffee
+            <img class="card-image" src="images/coffee-thumb.jpg">
           </a>
-        </h4>
-        <p>Menu for the fake coffee shop</p>
-      </div>
-      
-      <div>
-        <a href="assignments.html">
-          <img src="images/coast.jpg">
-        </a>
-        <h4>
+          <h4>
+            <a href="coffee.html" class="card-title">
+              Coffee
+            </a>
+          </h4>
+          <p>
+            Menu for a fake coffee shop
+          </p>
+        </div>
+
+        <div class="card">
           <a href="assignments.html">
-            Assignments
+            <img class="card-image" src="images/coast-thumb.jpg">
           </a>
-        </h4>
-        <p>List of assignments</p>
+          <h4>
+            <a href="assignments.html" class="card-title">
+              Assignments
+            </a>
+          </h4>
+          <p>
+            List of assignments that show the progression of this site.
+          </p>
+        </div>
+
       </div>
-      
+      <!-- end main-content -->
+
+      <footer>
+          This site is made as a part of <a class="footer-link" href="http://web1.yukikodesign.com">Web 1</a>. Check out my <a class="footer-link" href="https://yukikodesign.github.io/web1/">other versions of this site</a>.
+      </footer>
     </div>
-    
-    <footer>
-      This page is a part of 
-      <a href="http://web1.yukikodesign.com">
-        web 1
-      </a>
-      . Check out the 
-      <a href="https://yukikostudent.github.io/web1">
-        other versions of this site
-      </a>
-    </footer>
+    <!-- end wrapper -->
+
   </body>
 </html>
