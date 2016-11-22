@@ -1,0 +1,65 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+.main-nav {
+  background-color: #333333;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin: 5px;
+  display: inline-block;
+}
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-teal {
+  color: #62B7BB;
+}
+.nav-blue {
+  color: #288bcd;
+}
+.nav-red {
+  color: #ee5573;
+}
+.nav-yellow {
+  color: #ffa73a;
+}
+
+/* hero styles */
+.hero {
+  color: #ffffff;
+  min-height: 400px;
+  background-image: url('images/city-yellow.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.hero-h1 {
+  margin: 0;
+  padding-top: 100px;
+}
+.main-content {
+  text-align: center;
+}
+.left-box {
+  background-color: #ffa73a;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.right-box {
+  border: 2px solid #ffa73a;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: top;
+}

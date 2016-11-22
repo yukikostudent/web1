@@ -1,0 +1,48 @@
+body {
+  background-color: #333;
+}
+.hero {
+  background-color: #e0bb4a;
+  padding: 200px 200px 200px 200px;
+  background-image: url("blueberry-fade.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.coffee {
+  background-color: #e0bb4a;
+  padding: 200px 200px 200px 200px;
+  background-image: url("coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.spacer {
+  height: 2000px;
+}
+.card {
+  background-color: #ffffff;
+  margin: 20px 2%;
+  width: 28%;
+  display: inline-block;
+  padding: 50px 0px;
+}
+#small-coffee {
+  background-color: red;
+  background-size: cover;
+  background-image: url("coffee.jpg");
+}
+
+#square {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+}

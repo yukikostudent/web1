@@ -1,0 +1,20 @@
+div{
+	border: solid 3px;
+	padding: 50px;
+	margin: 20px;
+}
+.one{
+	border-color: #d8276f;
+}
+.two{
+	border-color: #27b3c1;
+}
+.three{
+	border-color: #f7af3c;
+}
+.four{
+	border-color: #7daf2e;
+}
+.five{
+	border-color: #aa63d3;
+}

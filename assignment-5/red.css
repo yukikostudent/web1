@@ -1,0 +1,47 @@
+nav {
+  background-color: #404040;
+  text-align: center;
+}
+.nav-link {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.green {
+  color: green;
+}
+.red {
+  color: #ee5573;
+}
+.blue {
+  color: #288bcd;
+}
+.orange {
+  color: #ffa73a;
+}
+
+.hero {
+  background-color: red;
+  background-image: url('demo-images/mountains-red.jpg');
+  height: 400px;
+  text-align: center;
+  color: #ffffff;
+}
+.main-content {
+  text-align: center;
+  padding-top: 40px;
+}
+.color-block {
+  width: 300px;
+  height: 300px;
+  background-color:#ee5573;
+  display: inline-block;
+  vertical-align: top;
+}
+.text-stuff {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}

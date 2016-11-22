@@ -1,0 +1,187 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant|Roboto:100i,300,400,500,500i,700';
+body {
+  font-family: 'Roboto', arial, sans-serif;
+  font-weight: 400;
+  background-color: #f1f1f1;
+  color: #333;
+  margin: 0;
+}
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #d69e00;
+}
+a:hover {
+  color: #e4b532;
+}
+.hero {
+  background-color: #16445f;
+  text-align: center;
+  overflow: auto;
+}
+.main-nav {
+  max-width: 960px;
+  margin: 20px auto;
+  text-align: right;
+}
+a.nav-link {
+  box-sizing: border-box;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Cormorant, cursive;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 0px 15px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.2s ease;
+}
+a.nav-link:hover {
+  color: #FFD86B;
+  border-color: #FFD86B;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.logo {
+  float: left;
+  margin-right: 100px;
+  width: 0;
+  height:0;
+  color: rgba(0, 0, 0, 0);
+  padding: 60px 160px 0 0;
+  background-image: url('images/logo.png');
+  background-size: 120px 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  transition: all .2s ease;
+}
+.hero-card {
+  border: 2px solid #fff;
+  color: #efefef;
+  padding: 50px;
+  width: 800px;
+  margin: 100px auto 50px auto;
+}
+.hero-card-title {
+  font-family: georgia, serif;
+  margin: 0;
+  font-size: 50px;
+}
+.hero-card-description {
+  font-family: georgia, serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.hero-card-link {
+  text-decoration: none;
+  color: #efefef;
+  font-size: 18px;
+  border: 2px solid #efefef;
+  padding: 5px 20px;
+}
+.hero-card-link:hover {
+  color: #D69E00;
+  border-color: #D69E00;
+}
+
+.main-content {
+  padding: 20px;
+  /*text-align: center;*/
+}
+
+footer {
+  background-color: #333;
+  color: #999;
+  padding: 20px;
+  text-align: center;
+}
+.footer-link {
+  color: #AB810A;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #D69E00;
+  text-decoration: underline;
+}
+
+
+/* Home */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 300px;
+  margin: 20px auto;
+}
+.card-title {
+  padding: 10px 20px;
+  margin: 20px 0 10px 0;
+  color: #333;
+  font-size: 24px;
+}
+.card-title:hover {
+  color: #D69E00;
+}
+
+/* About */
+.about-list-container {
+  border: 4px solid #ddd;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Search */
+
+.search-placeholder {
+  width: 600px;
+  height: 400px;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Coffee */
+
+.coffee-quote {
+  font-size: 30px;
+  padding: 20px;
+  margin: 20px 15px;
+  border-left: 5px solid #d69e00;
+}
+cite {
+  display: block;
+  color: #666;
+  font-size: 16px;
+}
+.menu th {
+  padding: 10px;
+}
+.menu .size {
+  min-width: 150px;
+  text-align: right;
+  font-size: 14px;
+}
+.menu td {
+  padding: 10px 10px;
+  vertical-align: top;
+  text-align: right;
+}
+.menu dd {
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
+.menu .label {
+  text-align: left;
+}
+/* Assignments */
+.assignment-list {
+  border: 4px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 860px;
+}
